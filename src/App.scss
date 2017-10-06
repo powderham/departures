@@ -1,12 +1,15 @@
+$base-color: #111;
+$font-color: #ff9900;
+
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 
-  color: #ff9900;
-  background-color: #111;
+  color: $font-color;
+  background-color: $base-color;
 }
 
 .header-container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +36,6 @@ body {
   justify-content: space-between;
   width: 100vw;
   max-width: 400px;
-
 
   .departure-row {
     height: 10vh;
@@ -76,9 +78,4 @@ body {
       padding: 5px 0;
     }
   }
-}
-
-.header {
-  height: 10vh;
-  background-color: #111;
 }

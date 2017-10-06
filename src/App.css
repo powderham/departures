@@ -4,7 +4,7 @@ body {
   background-color: #111; }
 
 .header-container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,3 @@ body {
     .departure-container .calling-points li {
       width: 100%;
       padding: 5px 0; }
-
-.header {
-  height: 10vh;
-  background-color: #111; }
